@@ -1,0 +1,27 @@
+[debug] Packaging C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\calculator_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	CalcMain$.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\CalcMain$.class
+[debug] 	CalcMain$calculate$.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\CalcMain$calculate$.class
+[debug] 	CalcMain$calculate.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\CalcMain$calculate.class
+[debug] 	CalcMain.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\CalcMain.class
+[debug] 	Calculation$.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\Calculation$.class
+[debug] 	Calculation$Input$.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\Calculation$Input$.class
+[debug] 	Calculation$Input.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\Calculation$Input.class
+[debug] 	Calculation.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\Calculation.class
+[debug] 	Calculatorscala$.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\Calculatorscala$.class
+[debug] 	Calculatorscala$Result$.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\Calculatorscala$Result$.class
+[debug] 	Calculatorscala$Result.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\Calculatorscala$Result.class
+[debug] 	Calculatorscala.class
+[debug] 	  C:\Users\Анар\IdeaProjects\calculator\target\scala-2.13\classes\Calculatorscala.class
+[debug] Done packaging.
