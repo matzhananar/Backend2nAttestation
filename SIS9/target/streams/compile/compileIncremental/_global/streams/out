@@ -1,0 +1,58 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 7 products, 4 sources, 12 libraries
+[debug] current source = Set(${BASE}/src/main/scala/ServerSample.scala, ${BASE}/src/main/scala/NumberProducer.scala, ${BASE}/src/main/scala/Router.scala, ${BASE}/src/main/scala/Number.scala, ${BASE}/src/main/scala/Server.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/Number.scala), removed = Set(), changed = Set(${BASE}/src/main/scala/Router.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/Router.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set(${BASE}/src/main/scala/Number.scala)
+[debug] 	modified: Set(${BASE}/src/main/scala/Router.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/Router.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Router)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Router.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(Router)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Number.scala, ${BASE}/src/main/scala/Router.scala)
+[debug] Initial set of included nodes: Router
+[debug] compilation cycle 1
+[info] compiling 2 Scala sources to /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.3:compile for Scala 2.13.3
+[debug] [zinc] Running cached compiler 58ac5b35 for Scala compiler version 2.13.3
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[debug] 	-classpath
+[debug] 	/home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.10/akka-stream_2.13-2.6.10.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.1/akka-http_2.13-10.2.1.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.10/akka-actor-typed_2.13-2.6.10.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.13/2.0.5/akka-stream-kafka_2.13-2.0.5.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.13.0/circe-generic_2.13-0.13.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.13.0/circe-parser_2.13-0.13.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/de/heikoseeberger/akka-http-circe_2.13/1.31.0/akka-http-circe_2.13-1.31.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.10/akka-actor_2.13-2.6.10.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.10/akka-protobuf-v3_2.13-2.6.10.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.1/akka-http-core_2.13-10.2.1.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.10/akka-slf4j_2.13-2.6.10.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.6/scala-collection-compat_2.13-2.1.6.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.13.0/circe-numbers_2.13-0.13.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.0/cats-core_2.13-2.1.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.13.0/circe-jawn_2.13-0.13.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.1/akka-parsing_2.13-10.2.1.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.0/cats-macros_2.13-2.1.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.0/cats-kernel_2.13-2.1.0.jar:/home/mars/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0.jar
+[debug] Invalidating (transitively) by inheritance from Router...
+[debug] Initial set of included nodes: Router
+[debug] Invalidated by transitive inheritance dependency: Set(Router)
+[debug] None of the modified names appears in source file of ServerSample. This dependency is not being considered for invalidation.
+[debug] Change NamesChange(Router,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The Router has the following regular definitions changed:
+[debug] 	UsedName(finalize,[Default]).
+[debug]   > by transitive inheritance: Set(Router)
+[debug]   > 
+[debug]   > 
+[debug]         
+[debug] Invalidating (transitively) by inheritance from Number...
+[debug] Initial set of included nodes: Number
+[debug] Invalidated by transitive inheritance dependency: Set(Number)
+[debug] The following modified names cause invalidation of Router: Set(UsedName(apply,[Default]), UsedName(Number,[Default]), UsedName(asInstanceOf,[Default]), UsedName(value,[Default]))
+[debug] Change NamesChange(Number,ModifiedNames(changes = UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(copy$default$1,[Default]), UsedName(notify,[Default]), UsedName(finalize,[Default]), UsedName(canEqual,[Default]), UsedName(apply,[Default]), UsedName(unapply,[Default]), UsedName(Number,[Default]), UsedName(toString,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(productElementName,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(productPrefix,[Default]), UsedName(value,[Default]), UsedName(compose,[Default]), UsedName(getClass,[Default]), UsedName(productArity,[Default]), UsedName(##,[Default]), UsedName(synchronized,[Default]), UsedName(Number;init;,[Default]), UsedName(eq,[Default]), UsedName(andThen,[Default]), UsedName(productIterator,[Default]), UsedName(equals,[Default]), UsedName($init$,[Default]), UsedName(productElementNames,[Default]), UsedName(copy,[Default]), UsedName(clone,[Default]), UsedName(productElement,[Default]), UsedName(isInstanceOf,[Default]))) invalidates 2 classes due to The Number has the following regular definitions changed:
+[debug] 	UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(copy$default$1,[Default]), UsedName(notify,[Default]), UsedName(finalize,[Default]), UsedName(canEqual,[Default]), UsedName(apply,[Default]), UsedName(unapply,[Default]), UsedName(Number,[Default]), UsedName(toString,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(productElementName,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(productPrefix,[Default]), UsedName(value,[Default]), UsedName(compose,[Default]), UsedName(getClass,[Default]), UsedName(productArity,[Default]), UsedName(##,[Default]), UsedName(synchronized,[Default]), UsedName(Number;init;,[Default]), UsedName(eq,[Default]), UsedName(andThen,[Default]), UsedName(productIterator,[Default]), UsedName(equals,[Default]), UsedName($init$,[Default]), UsedName(productElementNames,[Default]), UsedName(copy,[Default]), UsedName(clone,[Default]), UsedName(productElement,[Default]), UsedName(isInstanceOf,[Default]).
+[debug]   > by transitive inheritance: Set(Number)
+[debug]   > 
+[debug]   > by member reference: Set(Router)
+[debug]         
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 6.821927198 s
+[info] done compiling

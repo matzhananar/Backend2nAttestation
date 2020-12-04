@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(/home/mars/IdeaProjects/SIS9/NumberGeneratorService/src/main/resources/application.conf,/home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/application.conf)
+[debug] 	(/home/mars/IdeaProjects/SIS9/NumberGeneratorService/src/main/resources/logback.xml,/home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/logback.xml)

@@ -1,0 +1,33 @@
+[debug] Packaging /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/numbergeneratorservice_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	ServerSample.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/ServerSample.class
+[debug] 	application.conf
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/application.conf
+[debug] 	Server$.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Server$.class
+[debug] 	Router$anon$importedDecoder$macro$139$1$anon$macro$137$1.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Router$anon$importedDecoder$macro$139$1$anon$macro$137$1.class
+[debug] 	Number$.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Number$.class
+[debug] 	Router$anon$importedDecoder$macro$139$1.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Router$anon$importedDecoder$macro$139$1.class
+[debug] 	Router$anon$importedDecoder$macro$139$1$$anon$2.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Router$anon$importedDecoder$macro$139$1$$anon$2.class
+[debug] 	logback.xml
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/logback.xml
+[debug] 	NumberProducer.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/NumberProducer.class
+[debug] 	ServerSample$delayedInit$body.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/ServerSample$delayedInit$body.class
+[debug] 	Number.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Number.class
+[debug] 	ServerSample$.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/ServerSample$.class
+[debug] 	Router.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Router.class
+[debug] 	Server.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Server.class
+[debug] 	Router$anon$importedDecoder$macro$139$1$$anon$1.class
+[debug] 	  /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes/Router$anon$importedDecoder$macro$139$1$$anon$1.class
+[debug] Done packaging.

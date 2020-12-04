@@ -1,0 +1,14 @@
+[debug] Created transactional ClassFileManager with tempDir = /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes.bak
+[debug] About to delete class files:
+[debug] 	Router.class
+[debug] We backup class files:
+[debug] 	Router.class
+[debug] Registering generated classes:
+[debug] 	Router$anon$importedDecoder$macro$139$1$$anon$1.class
+[debug] 	Number$.class
+[debug] 	Router$anon$importedDecoder$macro$139$1.class
+[debug] 	Router$anon$importedDecoder$macro$139$1$$anon$2.class
+[debug] 	Number.class
+[debug] 	Router$anon$importedDecoder$macro$139$1$anon$macro$137$1.class
+[debug] 	Router.class
+[debug] Removing the temporary directory used for backing up class files: /home/mars/IdeaProjects/SIS9/NumberGeneratorService/target/scala-2.13/classes.bak

@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.3 (Ubuntu Java 11.0.9.1)
+[debug]       Load.loadUnit: plugins took 116.389599ms
+[debug]       Load.loadUnit: defsScala took 0.315161ms
+[debug] [Loading] Scanning directory /home/mars/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/mars/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 16.8565 ms
+[debug]           Load.resolveProject(global-plugins) took 32.877781ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/mars/.sbt/1.0/plugins, plugins: List(<none>))) took 75.943984ms
+[debug] [Loading] Done in /home/mars/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 95.722101ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.189808ms
+[debug]     Load.loadUnit(file:/home/mars/.sbt/1.0/plugins/, ...) took 219.978557ms
+[debug]   Load.apply: load took 341.831051ms
+[debug]   Load.apply: resolveProjects took 5.469368ms
+[debug]   Load.apply: finalTransforms took 44.167521ms
+[debug]   Load.apply: config.delegates took 5.403972ms
+[debug]   Load.apply: Def.make(settings)... took 288.961626ms
+[debug]   Load.apply: structureIndex took 66.45808ms
+[debug]   Load.apply: mkStreams took 1.026936ms
+[info] loading global plugins from /home/mars/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 1827.162995ms
+[debug]           Load.loadUnit: plugins took 13.45781ms
+[debug]           Load.loadUnit: defsScala took 0.003867ms
+[debug] [Loading] Scanning directory /home/mars/IdeaProjects/SIS9/NumberGeneratorService/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/mars/IdeaProjects/SIS9/NumberGeneratorService/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.687896 ms
+[debug]               Load.resolveProject(numbergeneratorservice-build) took 1.120015ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id numbergeneratorservice-build, base: /home/mars/IdeaProjects/SIS9/NumberGeneratorService/project, plugins: List(<none>))) took 3.30757ms
+[debug] [Loading] Done in /home/mars/IdeaProjects/SIS9/NumberGeneratorService/project, returning: (numbergeneratorservice-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 4.821691ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.010009ms
+[debug]         Load.loadUnit(file:/home/mars/IdeaProjects/SIS9/NumberGeneratorService/project/, ...) took 18.797957ms
+[debug]       Load.apply: load took 20.104934ms
+[debug]       Load.apply: resolveProjects took 0.084919ms
+[debug]       Load.apply: finalTransforms took 15.474346ms
+[debug]       Load.apply: config.delegates took 0.290618ms
+[debug]       Load.apply: Def.make(settings)... took 57.820113ms
+[debug]       Load.apply: structureIndex took 19.901123ms
+[debug]       Load.apply: mkStreams took 0.001889ms
+[info] loading project definition from /home/mars/IdeaProjects/SIS9/NumberGeneratorService/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 208.24939ms
+[debug]     Load.loadUnit: defsScala took 0.00251ms
+[debug] [Loading] Scanning directory /home/mars/IdeaProjects/SIS9/NumberGeneratorService
+[debug]       Load.loadUnit: mkEval took 4.357914ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/mars/IdeaProjects/SIS9/NumberGeneratorService, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.337558 ms
+[info] loading settings for project numbergeneratorservice from build.sbt ...
+[debug]         Load.resolveProject(numbergeneratorservice) took 1.823931ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id numbergeneratorservice, base: /home/mars/IdeaProjects/SIS9/NumberGeneratorService, plugins: List(<none>))) took 3.557522ms
+[debug] [Loading] Done in /home/mars/IdeaProjects/SIS9/NumberGeneratorService, returning: (numbergeneratorservice)
+[debug]     Load.loadUnit: loadedProjectsRaw took 87.084811ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.437521ms
+[debug]   Load.loadUnit(file:/home/mars/IdeaProjects/SIS9/NumberGeneratorService/, ...) took 298.260229ms
+[debug] Load.apply: load took 299.317106ms
+[debug] Load.apply: resolveProjects took 0.093894ms
+[debug] Load.apply: finalTransforms took 8.437302ms
+[debug] Load.apply: config.delegates took 0.234943ms
+[debug] Load.apply: Def.make(settings)... took 78.529506ms
+[debug] Load.apply: structureIndex took 19.346504ms
+[debug] Load.apply: mkStreams took 0.002383ms
+[info] set current project to NumberGeneratorService (in build file:/home/mars/IdeaProjects/SIS9/NumberGeneratorService/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
